@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dcisco website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+
+        .container{
+            background-color: white;
+            height: 50px;
+            overflow: visible;
+        }
+        .congrats{
+            background-color: rgba(251, 217, 245, 0.3);
+            margin-top: 2.6rem;
+            padding: 5rem;
+        }
+        .congrats .congrat{
+            background-color: white;
+            width: 50%;
+            height: fit-content;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+            padding: 3rem;
+        }
+
+        .congrats .congrat p{
+            /* width: 50%; */
+        }
+
+        .congrats .congrat button{
+            border-radius: 30px;
+            width: fit-content;
+            height: auto;
+            padding: 0.6rem 1.5rem;
+            border: none;
+            background-color: #AD47B2;
+        }
+        .congrats .congrat button a{
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width:600px){
+            body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        /* background-color: #B4239A; */
+        background-color:white;
+        height: max-content;
+        max-width: 100%;
+        width: 100%;
+        margin: 10px auto;
+        justify-content: center;
+        overflow:unset;
+        margin-bottom: -3rem;
+
+        }
+
+        /* .container nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        } */
+            
+        
+        .container h1{
+            background-color: #4800BD;
+            border-radius: 20px;
+            justify-content: center;
+            text-align: center;
+            margin: 20px 5%;
+            padding: 20px 0;
+            font-size: 20px;
+            align-items: center;
+            color: white;
+            width: 90%;
+        }
+
+        .container nav{
+            max-width: 100%;
+            width: 100%;
+        } 
+      
+        
+        .congrats{
+            background-color: rgba(251, 217, 245, 0.3);
+            margin-top: -2rem;
+            padding: 2rem 0;
+            width: 100%;
+            margin: 4rem auto;
+            margin-bottom: -1rem;
+        }
+        .congrats .congrat{
+            background-color: white;
+            width: 95%;
+            height: 100%;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 1.4rem auto;
+            padding: 1rem 0;
+        }
+
+        .congrats .congrat p{
+            /* width: 50%; */
+        }
+
+        .congrats .congrat button{
+            border-radius: 30px;
+            width: fit-content;
+            height: auto;
+            padding: 0.6rem 1.5rem;
+            border: none;
+            background-color: #AD47B2;
+        }
+        .congrats .congrat button a{
+            text-decoration: none;
+        }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="homepage">
+
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="">
+                <ul class="nav-links">
+                    <!-- <li><a href="courses.html">Courses</a></li> -->
+                    <li><a href="index.html">Home</a></li>
+
+                    <li class="dd-list"><a class="cat-link" href="#">Course Categories<span
+                                class="dropdown">&#9662;</span></a>
+                        <div class="dropdown-menu">
+                            <a href="category_cyb.html">Cyber Security</a>
+                            <a href="category_ds.html">Data Science</a>
+
+
+                            <a href="category_net.html">Networking</a>
+                            <a href="category_prog.html">Programming</a>
+                            <a href="category_prIn.html">Programming Infastructure</a>
+                            <a href="category_os.html">OS and Information Tech.</a>
+                            <a href="category_dig.html">Digital Marketing</a>
+                            <a href="category_proff.html">Digital Literacy</a>
+
+
+                        </div>
+                    </li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="success_stories.html">Success Stories<a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+
+                </ul>
+                <div class="switch">
+                    <div>
+                        <img class="burger" src="images/burger.png" alt="">
+
+                    </div>
+                    <div class="close-icon">&#10006;</div>
+                </div>
+            </nav>
+            </div>
+            <section class="congrats">
+                <div class="congrat">
+                    <h2>Thank You!</h2>
+                    <p>You have successfully made request via our contact form. A representative will contact you immediately for further information.</p>
+                    <button><a href="index.html">close</a></button>
+                </div>
+            </section>
+            
+
+    <footer>
+        <div class="first">
+            <img src="images/logo.png" alt="">
+            <p>DCisco Academy is a leading provider of comprehensive technology training solutions and digital services,
+                empowering individuals and businesses to thrive in the ever-evolving tech landscape. With a team of
+                certified instructors, skilled developers, and industry experts, we offer a wide range of programs and
+                services tailored to meet the specific needs of our clients.
+            </p>
+            <h3>Follow Us</h3>
+            <div class="socials">
+                <a href="https://www.facebook.com/dciscoacademy"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/dcisco-academy/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/dciscoacademy"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@dciscoacademy1830"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+        <div class="second">
+            <h5>Links</h5>
+            <a href="index.html">Home</a>
+
+            <a href="#browse_category">Categories</a>
+            <a href="services.html">Services</a>
+            <a href="success_stories.html">Success Stories<a>
+                    <a href="about_us.html">About Us</a>
+                    <a href="contact_us.html">Contact Us</a>
+
+        </div>
+        <div class="third">
+            <h5>Categories</h5>
+            <a href="category_cyb.html">Cyber Security</a>
+            <a href="category_ds.html">Data Science</a>
+
+
+            <a href="category_net.html">Networking</a>
+            <a href="category_prog.html">Programming</a>
+            <a href="category_prIn.html">Programming Infastructure</a>
+            <a href="category_os.html">OS and Information Tech.</a>
+            <a href="category_dig.html">Digital Marketing</a>
+            <a href="category_proff.html">Digital Literacy</a>
+
+        </div>
+
+
+    </footer>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
